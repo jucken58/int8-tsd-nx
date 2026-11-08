@@ -1,0 +1,5 @@
+model,imgsz,FP32,full_best,full_method,dAP50_full,dAP75_full,dAPS_full,dAPL_full,head_fp32,best_ptq,best_ptq_cfg,n_fp16,gap_ptq,LOO_top3
+y11n,896,71.39,65.04,pct99.99,1.53,7.43,9.53,-1.86,70.03,70.12,greedy8_pct99.99,8,1.27,model.23.dfl.conv (+2.07); model.23.cv2.0.2 (+1.98); model.4.cv1.conv (+0.51)
+y8n,640,62.32,52.7,pct99.99,2.43,11.32,12.9,4.21,61.39,60.96,E_box1x1_cls1x1_dfl_pct99.99,7,1.36,model.22.cv2.0.2 (+5.38); model.22.dfl.conv (+2.73); model.8.m.0.cv2.conv (+0.19)
+y26n,640,61.94,59.39,pct99.999,0.55,2.83,4.1,3.16,61.55,61.29,greedy8_pct99.999,8,0.65,model.23.cv2.0.2 (+1.64); model.7.conv (+0.33); model.23.cv2.0.1.conv (+0.32)
+y11s,1280,78.32,75.33,pct99.99,0.85,4.31,3.65,0.77,77.46,77.41,greedy4_pct99.99,4,0.91,model.23.dfl.conv (+1.33); model.23.cv2.0.2 (+0.85); model.6.cv2.conv (+0.55)
